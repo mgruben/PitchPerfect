@@ -55,6 +55,9 @@
                             <constraint firstItem="mip-fG-mAh" firstAttribute="top" secondItem="iZW-Hh-sdH" secondAttribute="bottom" constant="8" id="oVD-NA-kOj"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="recordingLabel" destination="iZW-Hh-sdH" id="uWb-VU-Nen"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
