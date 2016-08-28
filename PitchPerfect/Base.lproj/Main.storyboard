@@ -39,28 +39,19 @@
                                     <action selector="stopRecordingAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e0I-kb-G84"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recording Stopped" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ugo-pJ-WWV">
-                                <rect key="frame" x="226" y="383" width="148" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Ocz-iI-rAb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1oc-Kw-5jh"/>
-                            <constraint firstItem="Ugo-pJ-WWV" firstAttribute="top" secondItem="mip-fG-mAh" secondAttribute="bottom" constant="8" id="4ac-eW-QML"/>
                             <constraint firstItem="iZW-Hh-sdH" firstAttribute="centerX" secondItem="Ocz-iI-rAb" secondAttribute="centerX" id="FBG-93-UfG"/>
                             <constraint firstItem="Ocz-iI-rAb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jsu-Uc-JD4"/>
                             <constraint firstItem="mip-fG-mAh" firstAttribute="centerX" secondItem="iZW-Hh-sdH" secondAttribute="centerX" id="R8i-Lx-I5P"/>
-                            <constraint firstItem="Ugo-pJ-WWV" firstAttribute="centerX" secondItem="mip-fG-mAh" secondAttribute="centerX" id="VVa-xo-zff"/>
                             <constraint firstItem="iZW-Hh-sdH" firstAttribute="top" secondItem="Ocz-iI-rAb" secondAttribute="bottom" constant="1" id="ZUF-su-Ziq"/>
                             <constraint firstItem="mip-fG-mAh" firstAttribute="top" secondItem="iZW-Hh-sdH" secondAttribute="bottom" constant="8" id="oVD-NA-kOj"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="recordingLabel" destination="iZW-Hh-sdH" id="uWb-VU-Nen"/>
-                        <outlet property="stopRecordingLabel" destination="Ugo-pJ-WWV" id="8vg-1z-nWa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
