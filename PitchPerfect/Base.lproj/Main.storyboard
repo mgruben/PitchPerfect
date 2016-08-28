@@ -21,12 +21,15 @@
                                 <rect key="frame" x="276" y="285" width="49" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Record"/>
+                                <connections>
+                                    <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hma-xZ-Qn7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Ocz-iI-rAb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fgn-u1-JAa"/>
-                            <constraint firstItem="Ocz-iI-rAb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vFA-vx-tTJ"/>
+                            <constraint firstItem="Ocz-iI-rAb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1oc-Kw-5jh"/>
+                            <constraint firstItem="Ocz-iI-rAb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jsu-Uc-JD4"/>
                         </constraints>
                     </view>
                 </viewController>
